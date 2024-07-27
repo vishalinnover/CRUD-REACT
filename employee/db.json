@@ -1,12 +1,6 @@
 {
   "employee": [
     {
-      "id": "4",
-      "name": "Kane Speed",
-      "email": "kw@in.com",
-      "phone": "908908767"
-    },
-    {
       "id": "3cc8",
       "name": "Vishal Mishra",
       "email": "gmail.com",
@@ -14,10 +8,18 @@
       "active": true
     },
     {
-      "id": "c1ea",
-      "name": "Vishal Mishra",
-      "email": "Propermail",
-      "phone": "23456"
+      "id": "e719",
+      "name": "Tushar",
+      "email": "tushar@gmail.com",
+      "phone": "1234567",
+      "active": true
+    },
+    {
+      "id": "1",
+      "name": "Ajitesh",
+      "email": "kumar@2024",
+      "phone": "2345678",
+      "active": true
     }
   ]
 }

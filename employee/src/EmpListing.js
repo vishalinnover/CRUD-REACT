@@ -44,16 +44,16 @@ const EmpListing = () => {
                 </div>
                 <div className="card-body">
                     <div className="divbtn">
-                        <Link to="employee/create" className="btn btn-success">Add New (+)</Link>
+                        <Link to="employee/create" className="btn btn-warning">CREATE(+)</Link>
                     </div>
                     <table className="table table-bordered">
                         <thead className="bg-dark text-white">
                             <tr>
-                                <td>ID</td>
-                                <td>Name</td>
-                                <td>Email</td>
-                                <td>Phone</td>
-                                <td>Action</td>
+                                <td><strong>ID</strong></td>
+                                <td><strong>Name</strong></td>
+                                <td><strong>Email</strong></td>
+                                <td><strong>Phone</strong></td>
+                                <td><strong>Action</strong></td>
                             </tr>
                         </thead>
                         <tbody>
@@ -65,9 +65,10 @@ const EmpListing = () => {
                                         <td>{item.name}</td>
                                         <td>{item.email}</td>
                                         <td>{item.phone}</td>
-                                        <td><a onClick={() => { LoadEdit(item.id) }} className="btn btn-success">Edit</a>
-                                            <a onClick={() => { Removefunction(item.id) }} className="btn btn-danger">Remove</a>
-                                            <a onClick={() => { LoadDetail(item.id) }} className="btn btn-primary">Details</a>
+                                        <td>
+                                            <a onClick={() => { LoadDetail(item.id) }} className="btn btn-primary">READ</a>
+                                            <a onClick={() => { LoadEdit(item.id) }} className="btn btn-success">UPDATE</a>
+                                            <a onClick={() => { Removefunction(item.id) }} className="btn btn-danger">DELETE</a>
                                         </td>
                                     </tr>
                                 ))
