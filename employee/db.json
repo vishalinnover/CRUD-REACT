@@ -2,24 +2,54 @@
   "employee": [
     {
       "id": "1",
-      "name": "Vishal",
-      "email": "mishra@124",
-      "phone": "7656567",
-      "active": true
+      "FirstName": "Vishal",
+      "LastName": "Mishra",
+      "DateOfBirth": "1990-01-01",
+      "Address": "123 Main St",
+      "City": "Cityville",
+      "State": "Stateville",
+      "Gender": "Male",
+      "Email": "mishra@124",
+      "Phone": "7656567",
+      "Active": true
     },
     {
       "id": "2",
-      "name": "Tushar",
-      "email": "kumar@2024",
-      "phone": "456456456654567",
-      "active": true
+      "FirstName": "Tushar",
+      "LastName": "Kumar",
+      "DateOfBirth": "1992-02-02",
+      "Address": "456 Elm St",
+      "City": "Townsville",
+      "State": "Provinceville",
+      "Gender": "Male",
+      "Email": "kumar@2024",
+      "Phone": "456456456654567",
+      "Active": true
     },
     {
       "id": "3",
-      "name": "Anant",
-      "email": "pandey@1234567",
-      "phone": "76567875677",
-      "active": true
+      "FirstName": "Anant",
+      "LastName": "Pandey",
+      "DateOfBirth": "1994-03-03",
+      "Address": "789 Oak St",
+      "City": "Villageville",
+      "State": "Regionville",
+      "Gender": "Male",
+      "Email": "pandey@1234567",
+      "Phone": "76567875677",
+      "Active": true
+    },
+    {
+      "id": "efd5",
+      "FirstName": "Pratik",
+      "LastName": "Kumar",
+      "DateOfBirth": "2002-09-09",
+      "Address": "OmaxeGreens",
+      "City": "Ambala",
+      "State": "Haryana",
+      "Gender": "Male",
+      "Email": "pratik.kumar@gmail.com",
+      "Phone": "87656786678"
     }
   ]
 }
