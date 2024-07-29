@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card-title{
+  border: 4px solid black;
+}
+.card-body{
+  border: 4px solid black;
+}
+.mb-3{
+  border: 4px solid black;
+}
+/* .App{
+  background-color: blue;
+} */

@@ -1,16 +1,6 @@
 {
   "employee": [
     {
-      "id": "67a5",
-      "firstName": "Vishal",
-      "lastName": "Mishra",
-      "dateOfBirth": "2002-02-07",
-      "address": "OmaxeGreens",
-      "city": "Ambala",
-      "state": "Haryana",
-      "gender": "Male"
-    },
-    {
       "id": "337f",
       "firstName": "Tushar",
       "lastName": "Kumar",
