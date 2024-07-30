@@ -55,7 +55,7 @@ const EmpCreate = () => {
                                     <div className="col-lg-12">
                                         <div className="form-group">
                                             <label>Date of Birth</label>
-                                            <input type="date" value={dateOfBirth} onChange={e => setDateOfBirth(e.target.value)} className="form-control"></input>
+                                            <input type="date" required value={dateOfBirth} onChange={e => setDateOfBirth(e.target.value)} className="form-control"></input>
                                         </div>
                                     </div>
                                     <div className="col-lg-12">
@@ -79,7 +79,7 @@ const EmpCreate = () => {
                                     <div className="col-lg-12">
                                         <div className="form-group">
                                             <label>Gender</label>
-                                            <select value={gender} onChange={e => setGender(e.target.value)} className="form-control">
+                                            <select required value={gender} onChange={e => setGender(e.target.value)} className="form-control">
                                                 <option value="">Select Gender</option>
                                                 <option value="Male">Male</option>
                                                 <option value="Female">Female</option>

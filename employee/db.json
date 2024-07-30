@@ -19,6 +19,26 @@
       "city": "Prayagraj",
       "state": "UP",
       "gender": "Female"
+    },
+    {
+      "id": "8bff",
+      "firstName": "c",
+      "lastName": "b",
+      "dateOfBirth": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "gender": ""
+    },
+    {
+      "id": "b3c4",
+      "firstName": "manoj",
+      "lastName": "verma(updated)",
+      "dateOfBirth": "0001-01-01",
+      "address": "",
+      "city": "",
+      "state": "",
+      "gender": "Male"
     }
   ]
 }

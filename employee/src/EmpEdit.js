@@ -88,6 +88,7 @@ const EmpEdit = () => {
                                                 value={empData.dateOfBirth}
                                                 onChange={handleChange}
                                                 className="form-control"
+                                                required
                                             ></input>
                                         </div>
                                     </div>
@@ -132,6 +133,7 @@ const EmpEdit = () => {
                                                 value={empData.gender}
                                                 onChange={handleChange}
                                                 className="form-control"
+                                                required
                                             >
                                                 <option value="">Select Gender</option>
                                                 <option value="Male">Male</option>
